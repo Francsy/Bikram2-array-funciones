@@ -26,14 +26,14 @@ function potenciacion (a,b) {
 
 //  7.- Crea la función separarPalabras que acepte como argumento un string y devuelva un array de palabras 'hola mundo' => [hola, mundo]
 
-// function separarPalabras(a) {
-//     for (let i = 0; i < a.lenght; i++){
-//         if (a[i] = " ") {
-//             Array.push(a.length - (i - a.length))
-//         }
-//         return a[b]
-//     }
-// }
+function separarPalabras(string) {
+    for (let i = 0; i < a.lenght; i++){
+        if (a[i] = " ") {
+            Array.push(a.length - (i - a.length))
+        }
+        return a[b]
+    }
+}
 
 // myArray = [1,2,3,4,5]
 // myArray[1] // 2
@@ -140,21 +140,14 @@ function esPar(a) {
 
 //  22.- Crea el array arrayFunciones que tenga como valor las funciones: suma, resta y multiplicación (todas aceptan 2 números como argumento y devuelve el resultado de su operación)
 
-// function suma(a,b) {
-//     return(a+b);
-    
-// }
-// function resta(a,b) {
-//     return a - b;
-// }
-// function multiplicación(a,b) {
-//     return a*b;
-// }
 
-// const arrayFunciones = [[suma()], [resta()], [multiplicacion()]]
+function resta(a,b) {
+    return a - b;
+}
+
+const arrayFunciones = [suma, resta, multiplicacion]
     
 
-// const arrayFunciones = [suma(a,b), resta(a,b), multiplicacion(a,b)]
 
 // Mezclando arrays y funciones
 //  23.- Crear la función ordenarArray2 que acepta como argumento un array de números y devuelva un array ordenado de mayor a menor
@@ -164,4 +157,3 @@ function esPar(a) {
 //  25.- Crear la función sumarArray que acepte como argumento un array numérico y devuelva la suma de los números en el array Array: [1, 2, 3] resultado: 6
 
 //  26.- Crear la función multiplicarArray que acepte como argumento un array numérico y devuelva la multiplicación de los números en el array Array: [2, 3, 4] resultado: 24
-
