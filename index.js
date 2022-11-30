@@ -210,7 +210,7 @@ return arr;
 
 // //  24.- Crear la función obtenerImpares que acepta como argumento un array de números y devuelva un array con los elementos impares
 
-function obtenerPares(arr) {
+function obtenerImpares(arr) {
   const arrPares = []
   for (i = 0 ; i < arr.length ; i++){
     if (arr[i] % 2 !== 0) {
